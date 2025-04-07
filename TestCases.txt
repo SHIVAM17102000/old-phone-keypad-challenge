@@ -1,0 +1,24 @@
+Test Case 1:
+Input: 4433555 555666096667775553#
+Expected Output: HELLO WORLD
+
+Test Case 2:
+Input: 222 2 2#
+Expected Output: CAB
+
+Test Case 3:
+Input: 777733 666 6660#
+Expected Output: SE NO
+
+Test Case 4 (with backspace):
+Input: 4433555***666#
+Expected Output: HLO
+
+Test Case 5 (no ending # added manually):
+Input: 999337777*
+Expected Output: ZS
+
+Note:
+- '#' is used to indicate the end of input.
+- '*' represents a backspace.
+- Inputs are based on old mobile keypad logic.

@@ -1,0 +1,19 @@
+# Old Phone Keypad Challenge - Human-style Logic Notes
+
+## 🎯 Goal:
+Simulate old phone keypad typing (like Nokia phones) where pressing keys multiple times selects different letters.
+
+## 👇 Input Example:
+4433555 555666# → HELLO
+
+## Key Concepts:
+- Use arrays or dictionary for key mapping.
+- Handle backspace with *
+- End input with #
+- Loop through input, group same digits
+
+## Files Included:
+- Version1_ManualLogic/Program.cs
+- Version2_DictionaryBased/Program.cs
+- TestCases.cs
+- README.md (see GitHub for detailed explanation)
