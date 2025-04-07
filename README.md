@@ -104,34 +104,23 @@ See [logic_notes.txt](./logic_notes.txt) for manual breakdown of how the logic i
 4. Input a keypad string and view the output
 
 ---
-🔍 Performance Notes (Added Section)
+**🔍 Performance Notes (Added Section)**
 
 Manual Logic Version (Version1_ManualLogic):
-
 Uses fixed arrays for character mapping.
-
 Good for learning and full manual control.
-
 Slightly more verbose due to custom logic.
-
 Dictionary-Based Version (Version2_DictionaryBased):
-
 Easier to manage and extend (e.g., emojis, lowercase).
-
 More scalable, and uses C# collection best practices.
-
 Refactored Version (Version2_RefactoredWithDictionary):
-
 Most structured and modular version.
-
 Maintains readability, separation of concerns, and reusability.
-
 Uses helper methods for grouping and processing.
-
 Performance-wise for small input, all versions are efficient.
 However, refactored code is closest to production-ready quality.
 */
----
+
 ## 📤 Submission Notes
 - All logic, structure, and testing done manually
 - No external libraries or AI tools used
