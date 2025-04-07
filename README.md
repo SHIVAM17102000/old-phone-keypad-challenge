@@ -49,16 +49,20 @@ Output: HLO
 
 ## 🧰 Project Structure
 ```
-old-phone-keypad-challenge/
-├── src/
-│   ├── Version1_ManualLogic/
-│   │   └── Program.cs         # Without dictionary
-│   ├── Version2_DictionaryBased/
-│   │   └── Program.cs         # With dictionary
-│   ├── TestCases.cs           # Automated test runner (optional)
-│   └── TestCases.txt          # Manual test documentation
-├── logic_notes.txt            # How the problem was solved
-├── README.md
+src/
+│
+├── Version1_ManualLogic/
+│   └── Program.cs              # Logic using array mapping
+│
+├── Version2_DictionaryBased/
+│   └── Program.cs              # Using dictionary for digit-to-letters mapping
+│
+├── Version2_RefactoredWithDictionary/
+│   └── alternate code.cs       # Alternative clean version 
+│
+├── README.md                   # This file
+├── TestCases.txt               # Full list of tested input/output cases
+└── logic_notes.txt             # Developer notes, logic explanation
 ```
 
 ---
@@ -69,6 +73,13 @@ old-phone-keypad-challenge/
 - Input and logic verified with both manual and automated test cases
 - Simulated in Visual Studio 2022 (Console App Template)
 
+🔁 Alternate Code
+
+Located at:
+
+src/Version2_RefactoredWithDictionary/alternate code.cs
+
+This version is shared by a contributor and contains a more functionally separated design using the same logic
 ---
 
 ## 🖼️ Sample Visual Studio Output
